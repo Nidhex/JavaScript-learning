@@ -14,13 +14,11 @@ let state;
 // null => standlone value 
 // undefined =>
 // symbol => unique 
-
-
 // object
+
 
 console.log(typeof"nidds")
 console.log(typeof age)
 console.log(typeof null)
 console.log(typeof undefined)
 
-                     
