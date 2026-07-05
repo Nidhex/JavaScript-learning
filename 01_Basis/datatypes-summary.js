@@ -119,6 +119,8 @@ let userOne = {
     upi: "user@ybl"
 };
 
+
+
 // Reference is assigned
 // Both variables point to same object in heap memory
 let userTwo = userOne;
@@ -128,6 +130,8 @@ usertwo.email = "hitesh@google.com";
 
 console.log(userOne.email); // hitesh@google.com
 console.log(userTwo.email); // hitesh@google.com
+
+
 
 
 // Notes:
@@ -149,3 +153,10 @@ console.log(userTwo.email); // hitesh@google.com
 
 // Primitive  -> Copy is made
 // Non-Primitive -> Reference is shared
+
+
+let arr = {
+       email: "user@google.com",
+    upi: "user@ybl"
+}
+
