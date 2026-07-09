@@ -6,7 +6,7 @@ let accountState;
 
 //accounId = 2 //not allowed
 
-console.log(accounId);
+console.log(accountCity);
 
 /* 
 prefer not to use var
